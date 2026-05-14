@@ -108,7 +108,7 @@ Fluxo: spec → tasks → impl → archive. **Sem spec = sem código.**
 - [ ] CHANGELOG.md atualizado
 
 ## Stack
-Kotlin 1.9 / JVM 17 · Spring Boot 3.x · Gradle · Docker · K8s + Helm · GH Actions + ArgoCD · Log4j2 · Springdoc OpenAPI
+Java 17+ / JVM 17 · Spring Boot 3.x · Gradle · Docker · K8s + Helm · GH Actions + ArgoCD · Log4j2 · Springdoc OpenAPI
 
 ## Scripts de Startup
 Sempre usar scripts. Não rodar comandos na mão.
@@ -136,6 +136,6 @@ Regra porta: verifica `lsof -ti:8080` → porta ocupada = **não chama** start-l
 ## Agents
 | Agent | Domínio |
 |-------|---------|
-| `development` | Kotlin, Spring Boot, REST, Clean Arch |
+| `development` | Java 17+, Spring Boot, REST, Clean Arch |
 | `testing` | JUnit 5, Mockito, Spring Boot Test |
 | `infrastructure` | K8s, Helm, Docker, GH Actions, ArgoCD |
